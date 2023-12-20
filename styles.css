@@ -1,51 +1,69 @@
-/* Basic styling for header, sections, footer, etc. */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ecf0f1; /* Light blue background */
-  color: #333; /* Dark text */
+  color: #444;
 }
 
 .container {
-  width: 80%;
+  width: 90%
   margin: 0 auto;
   padding: 20px 0;
+  text-align: center;
 }
 
 header {
-  background-color: #3498db; /* Main blue header */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #007bff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
-  color: #fff; /* White logo color */
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo img {
+  height: 1.9em;
+  width: auto;
+  margin-right: 5px;
+}
+
+header .website-title {
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 section {
-  padding: 50px 0;
-  background-color: #d5eaf6; /* Lighter blue section background */
+  padding: 60px 0;
+  background-color: #cfe2f3;
+  border-top: 1px solid #ddd; 
+  text-align: center;
 }
 
 section.dark-bg {
-  background-color: #2980b9; /* Darker blue section */
-  color: #fff; /* White text */
+  background-color: #0056b3;
+  color: #fff;
 }
 
 footer {
   text-align: center;
-  padding: 20px 0;
-  background-color: #154360; /* Dark blue footer */
-  color: #fff; /* White text */
+  padding: 30px 0;
+  background-color: #002147;
+  color: #ddd; /* Lighter text */
 }
